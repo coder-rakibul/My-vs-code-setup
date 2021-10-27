@@ -1,0 +1,172 @@
+{
+  "editor.fontSize": 18,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveshare.audio.startCallOnShare": true,
+  "terminal.external.windowsExec": "C:\\Softor\\Git\\bin\\bash.exe",
+  "terminal.integrated.automationShell.linux": "C:\\Softor\\Git\\bin\\bash.exe",
+  "terminal.integrated.allowMnemonics": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.commandsToSkipShell": [
+    "\"terminal.integrated.shell.windows\": C:\\\\Softor\\\\Git\\\\bin\\\\bash.exe"
+  ],
+  //   Auto save aftar delays
+  //   "files.autoSave": "afterDelay",
+  //   "files.autoSaveDelay": 10,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "explorer.confirmDelete": false,
+  "tabnine.experimentalAutoImports": true,
+  "explorer.confirmDragAndDrop": false,
+  //terminal
+  "terminal.integrated.defaultProfile.windows": "C:\\Softor\\Git\\bin\\bash.exe (migrated)",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  // "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  // "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  // "workbench.iconTheme": "vscode-icons",
+  // terminal customization
+  // config related to code formatting
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  // "workbench.colorCustomizations": {
+  // },
+  // editor
+  // "editor.fontSize": 20,
+  // "editor.fontFamily": "'Poppins', sans-serif",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+    "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "onFocusChange",
+  // Live scsscompilar
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  //    emoji setup code
+  //   "emojisense.languages": {
+  //     "plaintext": {
+  //       "markupCompletionsEnabled": true,
+  //       "emojiDecoratorsEnabled": true
+  //     },
+  //     "javascript.validate.enable": false,
+  //     "abap": true,
+  //     "bat": true,
+  //     "bibtex": true,
+  //     "clojure": true,
+  //     "coffeescript": true,
+  //     "c": true,
+  //     "cpp": true,
+  //     "csharp": true,
+  //     "css": true,
+  //     "diff": true,
+  //     "dockerfile": true,
+  //     "fsharp": true,
+  //     "git-commit": true,
+  //     "git-rebase": true,
+  //     "go": true,
+  //     "groovy": true,
+  //     "handlebars": true,
+  //     "html": true,
+  //     "ini": true,
+  //     "java": true,
+  //     "javascript": true,
+  //     "javascriptreact": true,
+  //     "json": true,
+  //     "jsonc": true,
+  //     "latex": true,
+  //     "less": true,
+  //     "lua": true,
+  //     "makefile": true,
+  //     "markdown": true,
+  //     "objective-c": true,
+  //     "objective-cpp": true,
+  //     "perl6": true,
+  //     "php": true,
+  //     "powershell": true,
+  //     "jade": true,
+  //     "python": true,
+  //     "r": true,
+  //     "razor": true,
+  //     "ruby": true,
+  //     "rust": true,
+  //     "scss": true,
+  //     "sass": true,
+  //     "shaderlab": true,
+  //     "shellscript": true,
+  //     "sql": true,
+  //     "swift": true,
+  //     "typescript": true,
+  //     "typescriptreact": true,
+  //     "tex": true,
+  //     "vb": true,
+  //     "xml": true,
+  //     "xsl": true,
+  //     "yaml": true
+  // },
+
+  // Vs Code Thems Color caztomiz
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#00ddcb",
+    "terminalCursor.foreground": "#00ffea",
+    "terminal.background": "#222829",
+    "terminal.foreground": "#00ffd5",
+    // "terminalCursor.background": "#00ffea",
+    // "terminalCursor.foreground":"#A89984",
+    // "terminal.ansiBlack": "#1D2021",
+    // "terminal.ansiBlue": "#00d5ff",
+    // "terminal.ansiBrightBlack": "#fde400",
+    // "terminal.ansiBrightBlue": "#0D6678",
+    // "terminal.ansiBrightCyan": "#8BA59B",
+    // "terminal.ansiBrightGreen": "#95C085",
+    // "terminal.ansiBrightMagenta": "#8F4673",
+    // "terminal.ansiBrightRed": "#FB543F",
+    // "terminal.ansiBrightWhite": "#FDF4C1",
+    // "terminal.ansiBrightYellow": "#fde400",
+    // "terminal.ansiCyan": "#00ff9d",
+    // "terminal.ansiGreen": "#95C085",
+    // "terminal.ansiMagenta": "#8F4673",
+    // "terminal.ansiRed": "#FB543F",
+    // "terminal.ansiWhite": "#A89984",
+    // "terminal.ansiYellow": "#fde400",
+  },
+  // Git Bash Tarminal Intrigat
+  "terminal.integrated.profiles.windows": {
+    "C:\\Softor\\Git\\bin\\bash.exe (migrated)": {
+      "path": "C:\\Softor\\Git\\bin\\bash.exe",
+      "args": []
+    }
+  },
+  "editor.wordWrap": "on",
+}
